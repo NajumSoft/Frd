@@ -1,0 +1,54 @@
+.adsTwo{
+    max-width: 300px;
+    
+    border:1px solid #e1e1e1;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+   // background:linear-gradient(to top,#fff,#fff);
+//box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+.logo {
+    width: 100px;
+
+}
+.logo img{
+    width: 100px;
+    //border: 1px solid blue;
+}
+.titles{
+    margin-top: 10px;
+   // border: 1px solid blue;
+    font-family: open sans;
+    font-weight: 300;
+    margin-left: 10px;
+    margin-right: 10px;
+  
+  //border: 1px solid blue;
+    max-width: 180px;
+ 
+}
+.titles h1{
+    margin: 0;
+    padding: 0;
+   // border: 1px solid blue;
+font-size: 15px;
+line-height: 15px;
+}
+.titles .rating{
+    color: rgb(112, 112, 112);
+}
+.titles .rating i{
+    margin-left: 1px;
+    margin-right: 1px;
+}
+.size{
+    text-align: end;
+    color: crimson;
+}
+.descriptions{
+    margin-top: 10px;
+   // border: 1px solid pink;
+}

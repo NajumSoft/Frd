@@ -1,0 +1,229 @@
+<div class="page">
+<div class="boundry">
+    
+  <div class="detailView structure">
+  
+  <div class="main-box ">
+    <div class="logo">
+        <img [src]="data.imageUrl" [alt]="data.appName">
+    </div>
+    <div class="title-main">
+        <h1>{{data.appName}}</h1>
+        <p>Product {{data.by}}</p>
+        <div class="rating">
+          <i class="fa fa-star fontAwesome"></i>
+          <i class="fa fa-star fontAwesome"></i>
+          <i class="fa fa-star fontAwesome"></i>
+          <i class="fa fa-star fontAwesome"></i>
+          <i class="fa fa-star-o fontAwesome"></i>
+        </div>
+    </div>
+    <div class="download-button">
+        <button (click)="download()">Download &nbsp; <span class="fa fa-download fontAwesome" aria-hidden="true"> </span></button>
+    </div>
+    <br><br>
+  </div>
+<div>
+  <swiper [config]="QuickViewConfig" >
+       
+    <div class="swiper-wrapper">
+   
+      <div class="swiper-slide">
+        <div class="infoDiv s-animation6">
+           <div>
+            <span class="bold">downloads </span>
+            <br>
+            <span class="">25,000</span>
+           </div>
+        </div>
+        
+      </div>
+      <div class="swiper-slide">
+        <div class="infoDiv s-animation6">
+          <div>
+          <span class="bold">Views</span>
+            <br>
+           <span>53,054</span>
+          </div>
+        </div>
+        
+      </div>
+      <div class="swiper-slide">
+        <div class="infoDiv s-animation6">
+          <div>
+           <span class="bold">UploadBy</span>
+            <br>
+            <span >Saif</span>
+          </div>
+        </div>
+        
+      </div> 
+  
+  
+      <div class="swiper-slide">
+  
+        <div class="infoDiv s-animation6">
+          <div>
+         <span class="bold">OS</span>
+          <br>
+            <span>{{data.operatingSystem}}</span></div>
+          </div>
+        
+      </div>
+  
+  
+      <div class="swiper-slide">
+  
+  
+        <div class="infoDiv s-animation6">
+          <div>
+            <span class="bold">Size</span>
+  <br>
+            <span>{{data.size}}</span>
+          </div>
+        </div>
+        
+      </div>
+  
+  
+   
+    </div>
+   
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </swiper>
+</div>
+
+
+
+
+
+</div>  
+
+
+
+
+
+<!-- description Start From Here --> <!-- description Start From Here --> <!-- description Start From Here -->
+
+<div class="descriptionView structure">
+
+  
+  
+                 <!-- <div class="d-flex justify-content-between screenShots">
+                    <swiper [config]="config">
+  
+                        <div class="swiper-wrapper">
+                       
+                          <div class="swiper-slide" *ngFor="let slide of slideData">
+                            <img [src]="slide.name"/>
+                            
+                          </div>
+                       
+                        </div>
+                       
+                       Add Pagination 
+                        <div class="swiper-pagination"></div>
+                       
+                        Add Arrows 
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div> 
+                   
+                      </swiper>
+                </div>  -->
+
+                <p class="et">Descriptions</p>
+                <br>
+                <div class="googleads">
+                  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                  <!-- Responsive Ad -->
+                  <ins class="adsbygoogle"
+                       style="display:block"
+                       data-ad-client="ca-pub-8373492361555674"
+                       data-ad-slot="3363394436"
+                       data-ad-format="auto"
+                       data-full-width-responsive="true"></ins>
+                  <script>
+                       (adsbygoogle = window.adsbygoogle || []).push({});
+                  </script>
+                </div>
+                <p class="descriptions">{{data.descriptions}}</p>
+
+                <p class="et">Technical Specs</p>
+                <br>
+                <table class="table table-hover s-animation">
+                  <thead>
+              
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td>Name</td>
+                          <td>{{data.appName}}</td>
+ 
+                      </tr>
+                      <tr>
+                       <td>Size</td>
+                       <td>{{data.size}}</td>
+ 
+                                           <tr>
+                       <td>Operating System</td>
+                       <td>{{data.operatingSystem}}</td>
+ 
+                   </tr>
+                   
+                   <tr>
+                       <td>Owner Link</td>
+                       <td>{{data.by}}</td>
+ 
+                   </tr>
+                   
+                   <tr>
+                       <td>Disclaimer </td>
+                       <td>if you are the publisher of this item and wish to have it removed from here, please contact with us
+ 
+                       </td>
+ 
+                   </tr>
+                   
+                   <tr>
+                       <td>License </td>
+                       <td>
+                           {{data.license}}</td>
+ 
+                   </tr>
+                   <tr>
+                     <td>Languages  </td>
+                     <td>
+                       multiple languages</td>
+ 
+                 </tr>
+ 
+                 
+                   
+    
+                  </tbody>
+              </table>
+ 
+
+
+
+  
+  
+</div>
+<!-- description End Here --> <!-- description End Here --> <!-- description End Here -->
+</div>
+</div>
+
+
+
+
+
+

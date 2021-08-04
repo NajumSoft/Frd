@@ -1,0 +1,89 @@
+
+
+
+<div class="i-navBar">
+  <div class="row">
+
+    <div class="col-sm-2">
+      <div class="i-brandLogo">
+      <p class="">FD</p>
+  </div>
+</div>
+
+    <div class="col-sm-9">
+      <div class="searchBox">
+        <div class="searchBar">
+            <select name="" id="">
+                <option value="">Andriod</option>
+                <option value="">Windows</option>
+                <option value="">Ios</option>
+                <option value="">Linux</option>
+                <option value="">Others</option>
+            </select>
+            <input type="text" (keyup.enter)="search()" [(ngModel)]='searchData' placeholder="Search Here...."> <i class="fa fa-search"  (click)="search()"></i> </div>
+    </div>
+    </div>
+
+    <div class="matMenu col-sm-1">
+      
+ <button id="imenu" mat-icon-button [matMenuTriggerFor]="menu">
+  <mat-icon>more_vert</mat-icon>
+</button>
+
+
+<mat-menu #menu="matMenu">
+
+  <button mat-menu-item routerLink="signIn">
+    <mat-icon>input</mat-icon>
+    <span>Login</span>
+  </button>
+
+  <button mat-menu-item routerLink="signUp">
+    <mat-icon>how_to_reg</mat-icon>
+    <span >SignUp</span>
+  </button>
+
+</mat-menu> 
+    </div>
+
+  </div>
+  </div> 
+
+   <div class="spacer80"></div>
+    
+
+
+
+
+<div class="nav-menu">
+  <ul>
+     <li  routerLink="landingPage">Home</li>
+
+      <li  routerLink="news">News</li> 
+
+     
+ 
+      <li  routerLink="test">NewUpload</li>
+       <li  routerLink="mobi">MobiZone</li> 
+
+ 
+      
+  </ul>
+</div> 
+
+
+
+
+
+
+
+<!-- 
+    </div>
+  </div>
+</div> -->
+
+
+
+<!-- 
+<app-test-component></app-test-component> -->
+<router-outlet></router-outlet>

@@ -1,0 +1,38 @@
+.loginForm form{
+    max-width: 300px;
+    border: 1px solid #e1e1e1;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 30px auto;
+    }
+    h1{
+        padding: 20px;
+        font-size: 40px;
+    }
+    div{
+      //  border:1px solid blue;
+        width: 100%;
+        text-align: center;
+    }
+    mat-form-field{
+        width: 100%;
+    }
+    .right{
+        text-align: right;
+    
+    
+    }
+    .cursor{
+        cursor: pointer;
+    }
+    button{
+        width: 200px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .lightBlue{
+        color:rgb(0, 121, 190);
+    }

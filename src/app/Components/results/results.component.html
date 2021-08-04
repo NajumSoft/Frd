@@ -1,0 +1,33 @@
+
+
+
+
+
+      
+<div class="searchContainer">
+
+
+  <div *ngFor="let i of listi">
+         
+    <div class="result s-animation" (click)="trans(i)">
+
+      <div class="logo">
+        <img [src]="i.imageUrl" alt="">
+      </div>
+      <div class="descriptions">
+
+         <div class="title"><h1>{{i.appName}}</h1><span>{{i.version}}</span></div>
+         <p>{{i.by}}</p>
+         <p class="text-truncate">{{i.descriptions}}</p>
+         <p>{{i.size}}</p>
+
+      </div>
+
+    </div>
+
+    
+
+  </div>
+
+
+</div>

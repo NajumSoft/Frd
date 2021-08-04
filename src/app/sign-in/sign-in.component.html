@@ -1,0 +1,72 @@
+{{formIsValid}}
+
+
+
+
+<div class="loginForm">
+    <form [formGroup]="loginForm" (ngSubmit)="login()">.
+<div>
+    <h1 class="lightBlue">Login</h1>
+</div>
+
+<div>
+    <mat-form-field appearance="outline">
+        <mat-label>User</mat-label>
+        <input 
+        type="email"
+        matInput placeholder="ex@xyz.com"
+        formControlName="email">
+        <mat-icon  matSuffix>person</mat-icon>
+        <mat-error *ngIf="loginForm.get('email').errors?.required">
+            required
+          </mat-error>
+          <mat-error *ngIf="loginForm.get('email').errors?.email">
+            Please enter a valid email address
+          </mat-error>
+   
+      </mat-form-field>
+
+
+      
+
+      <mat-form-field appearance="outline">
+        <mat-label>Password</mat-label>
+        <input matInput placeholder="Joghn"
+        [type]="hide ? 'password' : 'text'" 
+        formControlName="password">
+       <mat-icon (click)="hide = !hide" matSuffix>visibility_off</mat-icon>  
+       <mat-error *ngIf="loginForm.get('password').errors?.required">
+        required
+      </mat-error>
+      <mat-error *ngIf="loginForm.get('password').errors?.minlength">
+        password should be min 6 characters
+      </mat-error>
+  
+      </mat-form-field>
+</div>
+    
+    <br>
+   <div class="right">
+    <span class="cursor">forgot password?</span>
+
+   </div>
+    
+    <br>
+    <div>
+        <button type="submit" [disabled]="!loginForm.valid" mat-raised-button class="btn btn-primary mr-1" (click)="login()" color="primary">Login</button>
+       
+    </div>
+
+
+    <div>
+        <div (click)="loginFromGoogle()">Google</div>
+    </div>
+    <!-- <p> Status : {{status}}</p>
+    <p> login Or Not : {{loginStatus}}</p>
+    <p> email verified : {{emailVerified}}</p> -->
+    <div>
+      <p>if are you not member yet? <strong routerLink="/signUp" class="lightBlue cursor">Register</strong></p>
+    </div>
+    </form>
+</div>
+{{status}}

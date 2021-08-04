@@ -1,0 +1,382 @@
+.books{}
+.quickLink{
+   
+    padding: 0;
+    margin: 0;
+    list-style: none;
+   width: 100%;
+   //border:2px solid blue;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+.quickLink li {
+
+    background-color: #666;
+    height: 35px !important;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+ 
+    padding-bottom: 10px;
+margin: 5px;
+    line-height: 35px;
+    border-radius: 20px;
+    color: white;
+cursor: pointer;
+}
+.mainPage{
+   
+    display: flex;
+    flex-direction: column;
+       //max-width: 1500px;
+       margin: 0px auto;
+}
+.page{
+    
+    display: flex;
+ flex-direction: column;
+    //max-width: 700px;
+    margin: 0px auto;
+    //border: 2px solid blue;
+}
+.box{
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    background-color: white;
+    //border: 1px solid #e4e4e4;
+    //border-radius: 15px;
+    //box-shadow: 3px 3px 10px #e1e1e1;
+   // margin-top: 20px;
+ 
+   // opacity: 0;
+}
+.ads{
+    width: 300px;
+
+}
+.main-container{
+   
+    margin: 0 auto;
+    width: 1400px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+    //border: 2px solid blue;
+}
+.googleadsarea{
+    //border: 3px solid pink;
+    width: 340px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.containerWindow{
+    //border: 1px solid blue;
+   // border: 2px solid black;
+    max-width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+.ipadding{
+padding-left: 10px;
+padding-right: 10px;
+
+}
+.bg-white{
+  
+     background-color: white;
+    max-width: 700px;
+
+}
+.ib{
+    border: 1px solid #e1e1e1;
+}
+
+
+.headingRow > h2{
+    color: #666;
+    font-family: open sans;
+    font-size: 25px ;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+
+
+.more{
+    text-align: center;
+    //margin-right: 15%;
+    line-height: 30px;
+    height: 30px;
+    width: 80px;
+    //border: 1px solid #e1e1e1;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: Open sans;
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: capitalize;
+    color:rgb(80, 80, 80);
+    box-sizing: content-box;
+    transition: all .2s;
+   // box-shadow: inset 0px 0px 4px #e1e1e1;
+    //background-color: #00c3bb;
+    
+}
+.more:hover{
+    color: rgb(0, 0, 0);
+  border: 1px solid #e1e1e1;
+  box-sizing: border-box;
+    
+}
+
+
+
+.ap-ad-book{
+    border-radius: 5px;
+    width: 100px;
+     padding: 5px;
+     margin: 2px;
+     //box-shadow: 3px 3px 15px rgba(225, 225, 225, 0.58);
+     transition: all .3s;
+     background-color: white;
+}
+
+
+
+.ap-ad {
+   //border: 1px solid #f5f5f5;
+   border-radius: 5px;
+   width: 75px;
+   padding: 5px;
+   margin: 2px;
+   //box-shadow: 3px 3px 15px rgba(225, 225, 225, 0.58);
+   transition: all .3s;
+   background-color: white;
+   opacity: 0;
+  
+}
+
+.ap-ad:hover {
+     box-shadow: 7px 7px 15px rgba(173, 160, 160, 0.58);
+    transform: scale(1.1);
+
+    cursor: pointer;
+    color: blue;
+}
+
+.ap-ad-book:hover {
+    box-shadow: 7px 7px 15px rgba(173, 160, 160, 0.58);
+   transform: scale(1.1);
+
+   cursor: pointer;
+   color: blue;
+}
+.ap-ad-logo {
+    //border: 1px solid blue;
+  padding: 5px;
+
+
+    overflow: hidden;
+}
+
+.ap-ad-logo img {
+    //border: 1px solid black;
+    width: 100%;
+   
+    margin-bottom: 10px;
+
+
+}
+
+.ap-ad-title {
+
+    font-size: 12px;
+    //border: 1px solid black;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+    color: #666;
+    line-height: 15px;
+}
+
+.ap-ad-by {
+    //border: 1px solid black;
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+    color: #adadad;
+    text-transform: capitalize
+}
+
+.ap-ad-size {
+    // border: 1px solid black;
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+    color: #5679b1;
+}
+
+
+
+
+
+
+
+
+
+
+.gameing {
+    margin-top: 50px;
+    padding: 10px;
+    background-color: #fafafa !important;
+
+}
+
+.gameing h2 {
+    font-family: open sans;
+}
+
+.gameWallpaper {
+    position: absolute;
+    /*    border: 1px solid black;*/
+    height: 500px !important;
+
+}
+
+.gameWallpaper img {
+    height: 100%;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.gamesZone {
+    width: 100%;
+    /*    height: 250px;*/
+    //background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    transition: all .2s;
+    padding: 10px;
+
+}
+
+.gamesZone:hover {
+    //box-shadow: 1px 1px 20px #b5b5b5;
+    cursor: pointer;
+
+
+}
+
+.game {
+    /*    border: 1px solid blue;*/
+    padding: 5px;
+
+}
+
+.game img {
+    /*    width: 150px !important;*/
+    //border: 3px solid pink;
+    transition: all .2s;
+}
+
+.game img:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 650px) {
+    .hideTwo{
+            
+        display: none;
+    }
+    .main-container{
+        width: 100%;
+        }
+    
+
+}
+@media screen and (max-width: 970px) {
+    .hideOne{
+            
+        display: none;
+    }
+    .main-container{
+    width: 970px;
+    }
+
+}
+
+
+
+
+// start from herer books area 
+.booksArea{
+    background: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+.b-main-ad {
+    width: 120px;
+/*
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+*/
+    background-color: white;
+    font-family: roboto;
+    font-weight: 400;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.b-img {
+    width: 100%;
+}
+
+.b-title {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: .2mm;
+    padding: 0 !important;
+    margin: 0 !important;
+    color: rgb(28, 38, 61);
+}
+
+.b-author {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .2mm;
+    color: rgb(87, 97, 122);
+}
+
+.b-description {
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: .2mm;
+    color: #5a5a5a;
+    display: none;
+}

@@ -1,0 +1,218 @@
+<!-- 
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="ads250x250">
+                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+         
+                <ins class="adsbygoogle"
+                     style="display:inline-block;width:336px;height:280px"
+                     data-ad-client="ca-pub-8373492361555674"
+                     data-ad-slot="1806135727"></ins>
+                <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+            </div>
+            
+        </div>
+        <div class="col-md-8">
+            <div class="page">
+    
+   
+                <div class="boundry">
+                
+                    <div class="headingRow">
+                                
+                        <h2>Essentional Softwares</h2>
+                
+                        <div class="d-flex justify-content-end ">
+                            <div class="more">see more</div>
+                        
+                        </div>
+                
+                
+                      <div class="box ani-scale-2">
+                        <div *ngFor="let d of softList">
+                            <div class="ap-ad ani-scale-1" (click)="viewDetail(d)">
+                            
+                                <div class="ap-ad-logo" > 
+                                    <img [src]="d.imageUrl" alt=""> 
+                                </div>
+                                <h1 class="ap-ad-title text-truncate">{{d.appName}}</h1> 
+                                <span class="ap-ad-by">{{d.by}}</span> 
+                                <span class="ap-ad-size d-flex justify-content-end">{{d.size}}</span>
+                             </div>
+                            </div>
+                      </div>
+                
+                
+                
+                </div>
+                <div class="headingRow">
+                                
+                    <h2>Essentional Books</h2>
+                
+                    <div class="d-flex justify-content-end ">
+                        <div class="more">see more</div>
+                    
+                    </div>
+                
+                
+                  <div class="box ani-scale-2">
+                    <div *ngFor="let d of bookList">
+                        <div class="ap-ad ani-scale-1" (click)="viewDetail(d)">
+                        
+                            <div class="ap-ad-logo" > 
+                                <img [src]="d.imageUrl" alt=""> 
+                            </div>
+                            <h1 class="ap-ad-title text-truncate">{{d.appName}}</h1> 
+                            <span class="ap-ad-by">{{d.by}}</span> 
+                            <span class="ap-ad-size d-flex justify-content-end">{{d.size}}</span>
+                         </div>
+                        </div>
+                  </div>
+                
+                
+                
+                </div>
+                
+                
+                
+                </div>
+                
+                
+                </div>
+        </div>
+
+
+
+        
+        <div class="col-md-2">
+            <div class="ads300x600">
+                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+                <ins class="adsbygoogle"
+                     style="display:inline-block;width:300px;height:600px"
+                     data-ad-client="ca-pub-8373492361555674"
+                     data-ad-slot="7509850555"></ins>
+                <script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+                </script></div>
+        </div>
+        
+    </div>
+</div>
+ -->
+
+<div class="container-fluid mt-5 mb-5">
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+         
+            <ul class="quickLink">
+                <li class="">Audio</li>
+                <li class="">Video</li>
+                <li class="">Multimedia</li>
+                <li class="">Security</li>
+                <li class="">Browser</li>
+                <li class="">Top Downloads</li>
+                <li class="">Education</li>
+                <li class="">Games</li>
+                <li class="">Books</li>
+                <li class="">Softwares</li>
+                <li class="">Apps</li>
+                <li class="">Utility</li>
+                <li class="">Torrents</li>
+                <li class="">Malewares</li>
+            </ul>
+
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+</div>
+
+
+<div class="mainPage">
+    
+ <div class="container-fluid">
+
+    <div class="row">
+     
+        <div class="col-md-3">
+
+        </div>
+        <div class="col-md-6">
+           <div class="box ">
+               <div *ngFor="let d of softList">
+                   <div class="ap-ad ani-scale-1" (click)="viewDetail(d)">
+                   
+                       <div class="ap-ad-logo" > 
+                           <img [src]="d.imageUrl" alt=""> 
+                       </div>
+                       <h1 class="ap-ad-title text-truncate">{{d.appName}}</h1> 
+                       <span class="ap-ad-by">{{d.by}}</span> 
+                       <span class="ap-ad-size d-flex justify-content-end">{{d.size}}</span>
+                    </div>
+                   </div>
+             </div>
+        </div>
+        <div class="col-md-3">
+         
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+
+                    </div>
+       <div class="col-md-6">
+          <div class="box ">
+              <div *ngFor="let d of gameList">
+                  <div class="ap-ad w-160 ani-slide" (click)="viewDetail(d)">
+                  
+                      <div class="ap-ad-logo" > 
+                          <img [src]="d.imageUrl" alt=""> 
+                      </div>
+                      <h1 class="ap-ad-title text-truncate">{{d.appName}}</h1> 
+                      <span class="ap-ad-by">{{d.by}}</span> 
+                      <span class="ap-ad-size d-flex justify-content-end">{{d.size}}</span>
+                   </div>
+                  </div>
+            </div>
+       </div>
+       <div class="col-md-3">
+
+                </div>
+   </div>
+   
+
+
+</div>
+</div> 
+
+
+<div class="container-fluid">
+<div class="row">
+    <div class="col-md-3">
+      
+    </div>
+    <div class="col-md-6">
+        <div class="booksArea d-flex justify-content-around">
+            <div *ngFor="let d of bookList" >
+              <div class="b-main-ad" (click)="viewDetail(d)">
+                 <img class="b-img" [src]="d.imageUrl" alt=""> 
+                 <h1 class="b-title">{{d.appName}}</h1> 
+                 <span class="b-author">{{d.by}}</span> 
+               </div>
+            </div>
+      
+
+
+
+
+    </div>
+    </div>
+    <div class="col-md-3">
+       
+    </div>
+</div>
+    </div>

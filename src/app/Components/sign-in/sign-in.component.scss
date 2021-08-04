@@ -1,0 +1,62 @@
+.signIn{
+    width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: open sans;
+}
+mat-form-field{
+    font-size: 13px;
+    width: 100%;
+
+}
+.topRow{
+   // border:1px solid blue;
+    margin-top: 30px;
+}
+.inputsRow{
+    //border:1px solid black;
+    margin-top: 40px;}
+
+.forgotRow p{
+    color: rgb(153, 153, 153);
+    cursor: pointer;
+   // border: 1px solid blue;
+}
+
+.forgotRow p:hover{
+    color: rgb(223, 26, 141);
+    cursor: pointer;
+   // border: 1px solid blue;
+}
+
+
+.socialRow i {
+    font-size: 20px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin-left:5px ;
+    margin-right: 5px;
+    color: white;
+    cursor: pointer;;
+}
+
+
+p{
+    text-align: center;
+    font-size: 14px;
+    color: #acacac;
+    
+}
+.or{
+    display:flex;
+    justify-content: center;
+    color: #cecece;
+    font-family: open sans;
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: 20px;
+}

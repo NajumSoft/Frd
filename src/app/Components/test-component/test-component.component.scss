@@ -1,0 +1,32 @@
+img{
+    width: 100px;
+    cursor: pointer;
+}
+.main{
+    border: 2px solid white;
+box-shadow: 2px 2px 20px #e1e1e1
+;
+margin: 5px;}
+span{
+    color: red;
+}
+
+.s-form{
+    background-color: white;
+    max-width: 800px;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid #e1e1e1;
+margin: 20px;}
+mat-form-field{
+    width: 100% !important;
+}
+#placeholder1{
+    width: 100%;
+}
+// input[type='file']{
+//     display: none;
+// }
+#imageUploader{
+    display: none;
+}
