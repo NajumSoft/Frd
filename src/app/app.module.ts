@@ -48,6 +48,7 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 import { RedirectorComponent } from './redirector/redirector.component';
 import {MatSelectModule} from '@angular/material/select';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { RatingViewComponent } from './Components/rating-view/rating-view.component';
 
 @NgModule({
   declarations: [
@@ -62,7 +63,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     ResultsComponent,
     NewsComponent,
     MobiZoneComponent,
-    RedirectorComponent
+    RedirectorComponent,
+    RatingViewComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
